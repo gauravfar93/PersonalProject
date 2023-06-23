@@ -1,0 +1,290 @@
+#fotter1 {
+  height: auto;
+  width: 80%;
+  margin-top: 28px;
+  /* border: 1px solid black; */
+  margin-left: 5%;
+  margin: auto;
+}
+#fotter1_inside_div {
+  width: 88%;
+  margin-left: 70px;
+  height: auto;
+  /* border: 1px solid red; */
+}
+
+#fotter1_inside_div h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+  text-align: center;
+}
+#fotter1_inside_div p {
+  font-weight: 400;
+  font-size: 12px;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  line-height: 16px;
+  text-decoration: none;
+  transform: none;
+  font-family: Arial;
+  letter-spacing: 0.8px;
+}
+#fotter1_inside_div h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: 495;
+  text-align: center;
+}
+#fotter1_inside_div img {
+  margin-left: 34.7%;
+  cursor: pointer;
+}
+
+#fotter_lower {
+  height: auto;
+  display: flex;
+  width: 100%;
+  margin-top: 18px;
+  /* border: 1px solid black;  */
+}
+#service {
+  height: auto;
+  width: 250px;
+  cursor: pointer;
+  /* border: 1px solid red; */
+}
+#service h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+#service h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(109, 109, 109);
+}
+
+#mytheresa_div {
+  height: auto;
+  width: 250px;
+  cursor: pointer;
+  /* border: 1px solid green; */
+}
+#customer_care {
+  height: 300px;
+  width: 250px;
+  cursor: pointer;
+  /* border: 1px solid blue; */
+}
+#get_trend {
+  height: auto;
+  width: 450px;
+  cursor: pointer;
+  /* border: 1px solid blue; */
+}
+/*  */
+#mytheresa_div {
+  height: auto;
+  width: 250px;
+  /* border: 1px solid red; */
+}
+#mytheresa_div h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+#mytheresa_div h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(109, 109, 109);
+}
+
+/*  */
+#customer_care {
+  height: auto;
+  width: 250px;
+  /* border: 1px solid red; */
+}
+#customer_care h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+#customer_care h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(109, 109, 109);
+}
+
+/*  */
+#get_trend h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+#get_trend_search {
+  display: flex;
+  /* border: 1px solid red; */
+  height: 35px;
+}
+#signup {
+  /* border: 1px solid green; */
+  width: 150px;
+  background-color: rgb(242, 242, 242);
+  cursor: pointer;
+}
+#signup img {
+  margin-top: 5px;
+  margin-left: 27px;
+}
+#icons_div {
+  height: auto;
+  margin-top: 10px;
+  width: 300px;
+  /* border: 1px solid green; */
+}
+/*  */
+
+#payment_div {
+  height: auto;
+  display: flex;
+  width: 100%;
+  /* margin-top: 18px; */
+  /* border: 1px solid black;      */
+}
+#payment_div img {
+  width: 100%;
+}
+#copyright {
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 18px;
+  /* border: 1px solid red;      */
+}
+#copyright h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(109, 109, 109);
+}
+
+@media (max-width: 820px) {
+  #fotter1 {
+    height: auto;
+    width: 100%;
+    margin-top: 28px;
+    /* border: 1px solid black; */
+    margin-left: 0%;
+    margin: auto;
+  }
+  #fotter1_inside_div {
+    width: 95%;
+    margin-left: 2.5%;
+    height: auto;
+    /* border: 1px solid red;  */
+  }
+
+  #fotter_lower {
+    height: auto;
+    display: flex;
+    width: 95%;
+    margin-top: 18px;
+    /* border: 1px solid black;  */
+    margin-left: 2.5%;
+  }
+  #payment_div {
+    height: auto;
+    display: flex;
+    width: 95%;
+    margin-left: 2.5%;
+    /* margin-top: 18px; */
+    /* border: 1px solid black;      */
+  }
+  #payment_div img {
+    width: 100%;
+  }
+  #copyright {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin-top: 18px;
+    /* border: 1px solid red;    */
+    margin-left: 2.5%;
+  }
+}
+@media (max-width: 414px) {
+  #fotter1 {
+    height: auto;
+    width: 95%;
+    margin-top: 28px;
+    /* border: 1px solid black; */
+    margin-left: 0px;
+    
+  }
+  #fotter1_inside_div {
+    width: 100%;
+    margin-left: 5px;
+    height: auto;
+
+    /* border: 1px solid red; */
+  }
+
+  #fotter_lower {
+    height: auto;
+    display: flex;
+    width: 100%;
+
+    margin-top: 18px;
+    /* border: 1px solid black; */
+    margin-left: 5px;
+  }
+  #payment_div {
+    height: auto;
+    display: flex;
+    width: 95%;
+    margin-left: 0%;
+
+    /* margin-top: 18px; */
+    /* border: 1px solid black;      */
+  }
+  #payment_div img {
+    width: 100%;
+  }
+  #copyright {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin-top: 18px;
+    /* border: 1px solid red;    */
+    margin-left: 2.5%;
+  }
+  #fotter1_inside_div img {
+    margin-left: 13%;
+    cursor: pointer;
+  }
+  #service {
+    height: auto;
+    width: auto;
+    cursor: pointer;
+    display: none;
+    /* border: 1px solid red; */
+  }
+  #mytheresa_div {
+    /* border: 1px solid red; */
+    display: none;
+  }
+  #get_trend {
+    height: auto;
+    width: 450px;
+    cursor: pointer;
+    /* border: 1px solid blue; */
+  }
+}

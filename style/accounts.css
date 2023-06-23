@@ -1,0 +1,392 @@
+#account{
+    border-top: 2px solid #e3e3e3;
+    padding-top: 50px;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 50px;
+    margin-top: 30px;
+}
+.headings{
+    font-size: 16px;
+    color: #000;
+    letter-spacing: 1px;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+}
+#point{
+    font-size: 11px;
+    font-family: sans-serif;
+    color: #757575;
+}
+#enter{
+    color: #757575;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+#enter>a{
+    color:#757575;
+    font-family: sans-serif;
+}
+#enter>a:hover{
+    color: #000;
+}
+
+.input-box{
+    border: 0px solid black;
+    list-style: none;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0;
+    width: 40%;
+    color:#757575;
+}
+.input-box >li > label{
+  border: 0px solid red;
+  margin-left: 5px;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+#signupdiv{
+    width:50%;
+    border-right:2px solid #e3e3e3;
+}
+#forgot{
+    width: 40%;
+    padding-left: 80px;
+}
+#forgot > input{
+    border: 1px solid #e3e3e3;
+    height: 40px;
+    color: #757575;
+    width: 80%;
+}
+.signup{
+    padding-right: 80px;
+    padding-left: 80px;
+}
+.form,.loginform{
+    display: grid;
+    gap: 10px;
+    margin-top: 20px;
+}
+.loginform{
+    margin-top: 30px;
+}
+.form > input,.form>select,.loginform>input,.loginform>select{
+    border: 1px solid #e3e3e3;
+    height: 40px;
+    color: #757575;
+}
+.form>select option{
+   color: #757575;
+   font-size: 15px;
+}
+.form>label{
+    color: #757575;
+    text-align:left;
+    font-family:sans-serif
+}
+#dob_select{
+    display: flex;
+    justify-content: space-between;
+}
+#dob_select>select{
+  border: 1px solid #e3e3e3;
+  width: 30%;
+  height: 40px;
+}
+#dob_select>select{
+    color: #757575;
+   font-size: 15px;
+}
+#checkbox{
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+}
+#login{
+  border: 0px solid black;
+  width: 50%;
+}
+.login{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+#loginCheck{
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #757575;
+    text-align: left;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+}
+#benifits> ul> li{
+    margin-bottom: 15px;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    color: #757575;
+    margin-left: 15px;
+    font-size: 15px;
+}
+#signupbtn{
+    background-color: #f2f2f2;
+    margin-top: 20px;
+    border: none;
+    height: 40px;
+    width: 30%;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    cursor: pointer;
+}
+#signupbtn:hover{
+background-color: #aba2a2;
+}
+#loginbtn{
+    background-color: #000;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 20%;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    cursor: pointer;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+}
+#loginbtn:hover{
+    background-color: #aba2a2;
+}
+#back>a{
+    color: #757575;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+#back>a:hover{
+    color: #000;
+}
+#notmatch{
+    color: red;
+    font-size: 12px;
+}
+#navbar1{
+    height:auto;
+    width: 100%;
+    display: flex;
+    /* border: 1px solid black; */
+    cursor: pointer;
+    
+}
+
+#left_part{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid red; */
+    width: 300px;
+    margin-left: 90px;
+
+}
+#left_part p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: rgb(117, 117, 117);
+    
+    
+}
+#right_part{
+    display: flex;
+    width: 540px;
+    justify-content: space-evenly;
+    /* border: 1px solid red; */
+    margin-left: 360px;
+
+}
+#right_part p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: 620;
+    color: rgb(117, 117, 117)
+}
+#fotter1{
+    height: auto;
+    width: 90%;
+    margin-top: 28px;
+    /* border: 1px solid black; */
+    margin-left: 5%;
+   
+
+}
+#fotter1_inside_div{
+width: 88%;
+margin-left: 70px;
+height: auto;
+/* border: 1px solid red; */ 
+}
+
+#fotter1_inside_div h1{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 14px;
+font-weight: 100;
+text-align: center;
+
+}
+#fotter1_inside_div p{
+font-weight: 400;
+font-size: 12px;
+font-style: normal;
+color: rgb(0, 0, 0);
+line-height: 16px;
+text-decoration: none;
+transform: none;
+font-family: Arial;
+letter-spacing: 0.8px
+}
+#fotter1_inside_div h2{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 14px;
+font-weight: 495;
+text-align: center;
+
+}
+#fotter1_inside_div img{
+margin-left: 34.7%;
+cursor: pointer;
+}
+
+#fotter_lower{
+height: auto;
+display: flex;
+width: 100%;
+margin-top: 18px;
+/* border: 1px solid black;  */
+    
+}
+#service{
+height: auto;
+width: 250px;
+cursor: pointer;
+/* border: 1px solid red; */
+}
+#service h1{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 18px;
+font-weight: 400;
+
+}
+#service h2{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 15px;
+font-weight: 400;
+color: rgb(109, 109, 109)
+}
+
+
+#mytheresa_div{
+height: auto;
+width: 250px;
+cursor: pointer;
+/* border: 1px solid green; */
+}
+#customer_care{
+height: 300px;
+width: 250px;
+cursor: pointer;
+/* border: 1px solid blue; */
+}
+#get_trend{
+height: auto;
+width: 450px;
+cursor: pointer;
+/* border: 1px solid blue; */
+}
+/*  */
+#mytheresa_div{
+height: auto;
+width: 250px;
+/* border: 1px solid red; */
+}
+#mytheresa_div h1{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 18px;
+font-weight: 400;
+
+}
+#mytheresa_div h2{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 15px;
+font-weight: 400;
+color: rgb(109, 109, 109)
+}
+
+/*  */
+#customer_care{
+height: auto;
+width: 250px;
+/* border: 1px solid red; */
+}
+#customer_care h1{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 18px;
+font-weight: 400;
+
+}
+#customer_care h2{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 15px;
+font-weight: 400;
+color: rgb(109, 109, 109)
+}
+
+/*  */
+#get_trend h1{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 18px;
+font-weight: 400;
+
+}
+#get_trend_search{
+display: flex;
+/* border: 1px solid red; */
+height: 35px;
+}
+#signup{
+/* border: 1px solid green; */
+width: 150px;
+background-color: rgb(242,242,242);
+}
+#signup img{
+margin-top: 5px;
+margin-left: 27px;
+}
+#icons_div{
+height: auto;
+margin-top: 10px;
+width: 300px;
+/* border: 1px solid green; */
+}
+/*  */
+
+#payment_div{
+height: auto;
+display: flex;
+width: 100%;
+/* margin-top: 18px; */
+/* border: 1px solid black;      */
+}
+#payment_div img{
+width: 100%;
+}
+#copyright{
+height: auto;
+display: flex;
+justify-content: space-between;
+width: 100%;
+margin-top: 18px; 
+/* border: 1px solid red;      */
+}
+#copyright h2{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 15px;
+font-weight: 400;
+color: rgb(109, 109, 109)
+}

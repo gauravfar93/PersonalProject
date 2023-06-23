@@ -1,0 +1,212 @@
+#kidsSection{
+    border-top: 2px solid #e3e3e3;
+    border-bottom:2px solid #e3e3e3 ;
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+}
+#categories{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+#baby{
+  width: 100%;
+  margin: auto;
+  margin-top: 30px;
+  position: relative;
+}
+#baby>img{
+    width: 100%;
+}
+#girls{
+    width: 50%;
+    text-align: center;
+}
+#girls>img,#boys>img{
+    width: 100%;
+    position:relative;
+}
+
+#boys{
+    width: 50%;
+}
+.girlsTitle{
+    border: 0px solid black;
+    position:absolute;
+    width: 20%;
+    bottom:5%;
+    left: 20%;
+    text-align: center;
+}
+.boystitle{
+    border: 0px solid black;
+    position: absolute;
+    width: 20%;
+    bottom: 5%;
+    right: 20%;
+    text-align: center;
+}
+#girlsP,#boysP{
+    border: 0px solid black;
+    color: white;
+    font-size: 54px;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    line-height: 1.3em;
+    letter-spacing: 0.6px;
+}
+#girlsbtn,#boysbtn{
+    border: none;
+    background-color: #ffffff;
+    width: 50%;
+    height: 35px;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.babytitle{
+    border: 0px solid black;
+    width: 25%;
+    position: absolute;
+    text-align: center;
+    left: 37%;
+    bottom: 15%;
+}
+.babyp{
+    border: 0px solid black;
+    color: black;
+    font-size: 55px;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    line-height: 1.3em;
+    letter-spacing: 0.6px;
+}
+#babybtn{
+    border: none;
+    color: white;
+    background-color:black;
+    width: 50%;
+    height: 40px;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.designerbtn{
+    margin-left:40%;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    height: 30px;
+    width: 20%;
+    background-color: #f2f2f2;
+    border: none;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.designerbtn:hover{
+    background-color: aqua;
+}
+#pageinfo{
+    width: 80%;
+    margin: auto;
+    border-bottom: 0px solid #e3e3e3;
+}
+#pageinfo>img{
+    width: 100%;
+}
+#clothingnav{
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    color: #757575;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+#sort{
+    border: 1px solid white;
+    width: 7%;
+    color: #757575;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+#clothes{
+    border-top: 2px solid #e3e3e3;
+    border-bottom: 2px solid #e3e3e3;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+#filter{
+    border-bottom: 0px solid black;
+    width: 20%;
+    color: #757575;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: 50px;
+}
+#filter>p:hover{
+    color: black;
+    cursor: pointer;
+}
+#products{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border: 0px solid black;
+    text-align: center;
+    gap: 30px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+#img , #hovimg{
+    width: 90%;
+    cursor: pointer;
+}
+#prodTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #757575;
+    font-size:14px;
+}
+#prodPrice{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+#cartBtn{
+  background-color: #f2f2f2;
+  border: none;
+  height: 30px;
+  cursor: pointer;
+  font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    letter-spacing:0.6px;
+    text-transform: uppercase;
+}
+#cartBtn:hover{
+    background-color: grey;
+}
+#head{
+    font-family:  Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+#design,#cat,#size,#Colours{
+  margin-top: 20px;
+  border-bottom: 2px solid #e3e3e3;
+}
+#label{
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 0.09em;
+}
+p:hover{
+    color: black;
+    cursor: pointer;
+}

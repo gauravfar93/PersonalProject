@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accounts</title>
+<!-- <<<<<<< HEAD -->
+    <link rel="stylesheet" href="/style/accounts.css">
+<!-- ======= -->
+    <link rel="stylesheet" href="./style/accounts.css">
+<!-- >>>>>>> dd7c07a5046d56495291c1e9550f4903bfce2875 -->
+    <link rel="stylesheet" href="./style/homepage.css">
+    <link rel="stylesheet" href="./style/fotter.css" />
+    <link rel="stylesheet" href="./style/navbar.css" />
+</head>
+<body>
+    <div id="navbar"></div>
+    <div id="mytheresa_logo_div">
+        <div id="mytheresa_logo">
+            <img src="./images/69b86f1f0a9ebd9b93f71410cb4fbdf4.jpg">
+        </div>
+        <div id="mytheresa_logo2">
+            <p>SHOPPING BAG</p>
+            <img src="./images/Mytheresa-Luxury-Fashion-Designer-Shopping.png">
+        </div>
+    </div>
+    <div id="account">
+        <div id="signupdiv">
+            <div class="signup">
+            <p class="headings">CREATE AN ACCOUNT</p>
+            <p id="enter">Please enter the following information to create your account.</p>
+            <ul class="input-box">
+               <li class="control"><input class="radio" type="radio" name="prefix" id="prefix-Ms." value="Ms."><label for="prefix-Ms.">Ms.</label></li>
+               <li class="control"><input class="radio" type="radio" name="prefix" id="prefix-Mrs." value="Mrs."><label for="prefix-Mrs.">Mrs.</label></li>
+               <li class="control"><input class="radio" type="radio" name="prefix" id="prefix-Mr." value="Mr."><label for="prefix-Mr.">Mr.</label></li>
+            </ul>
+            <form class="form">
+            <input type="text" id="firstName" placeholder="First Name *">
+            <input type="text" id="lastName" placeholder="Last Name *">
+            <input type="email" id="email" placeholder="Email address*">
+            <input type="password" id="password" placeholder="Password *">
+            <input type="password" id="confirmPassword" placeholder="Confirm Password *">
+            <label id="notmatch"></label>
+            <label id="checkbox">
+                <input type="checkbox">From now on I will receive the Mytheresa Newsletter with selected fashion offers. If I do not wish to receive the newsletter, I can unsubscribe at any time free of charge at privacy@mytheresa.com.
+               </label>
+               <label for="" id="checkbox">
+                I agree that Mytheresa may insert analytical web beacons into the newsletter and create a personalized user profile based on my purchase and usage behavior, including sending a notification when I have placed something in the shopping cart. Further details can be found in our Privacy Policy, clause 5. I understand that I can revoke my consent at any time by emailing privacy@mytheresa.com.
+               </label>
+               <p id="enter">* required fields</p>
+               
+            </form>
+            <button  id="signupbtn" >REGISTER</button>
+            
+        </div>
+        </div>
+        <div id="login">
+            <div class="login">
+                <p class="headings">ALREADY REGISTERED?</p>
+                <p id="enter">If you have an account with us, please log in.</p>
+                 <form class="loginform">
+                    <input type="email" id="email1" placeholder="Email address*">
+                    <input type="password" id="password1" placeholder="Password *">
+                 </form>
+                 <p id="enter"><a href="forgotPass.html">Forgot Your Password?</a></p>
+                 <p id="enter">* required fields</p>
+                 <button id="loginbtn">LOGIN</button>
+                 <p id="loginCheck">At Mytheresa, we keep your information secure. As a result, it will be necessary for you to log in to your account before you are able to place an order or change the information on your account. You will be asked to log in to complete your order even if you have already been greeted on the website.</p>
+            </div>
+        </div>
+    </div>
+    <div id="footer"></div>
+</body>
+</html>
+<SCript type="module" src="./account.js"></SCript>

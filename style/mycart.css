@@ -1,0 +1,141 @@
+.cartPage{
+  width: 85%;
+  margin: auto;
+  /* border: 1px solid red; */
+}
+#containers{
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+  /* border: 1px solid black; */
+}
+#containers>div{
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  /* border-radius: 20px 0px 20px 0px; */
+  /* border: 2px solid yellow; */
+}
+#containers>div>img{
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  width: 80%;
+}
+.manudiv>p{
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  /* border: 2px solid orange */
+}
+.manudiv>h3{
+  text-align: center;
+}
+.remove_btn{
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background:linear-gradient(to left,#757575);
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    letter-spacing:0.6px;
+    text-transform: uppercase;
+    
+}
+.remove_btn:hover{
+    transform: scale(1.0,1.1);
+    background: #757575;
+}
+
+ #top {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    /* border: 1px solid blue; */
+  }
+
+  #top h2{
+    font-size: medium;
+    font-family: Century Gothic;
+    font-style: normal;
+    color: #000000;
+  }
+
+  #top button {
+    margin-top: 40px;
+    width: 250px;
+    height: 40px;
+    color: azure;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    font-size: small;
+    font-family: Century Gothic;
+    font-style: normal;
+    /* border: 2px solid brown; */
+  }
+
+  #thead {
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  }
+
+  #thead h4 {
+    margin: 0px 70px;
+  }
+
+  #midBox{
+    font-size: medium;
+    font-family: Century Gothic;
+    font-style: normal;
+    color: #757575;
+    font-size: 14px;
+    /* border: 2px solid blueviolet; */
+  }
+  #bottomCartBox1 {
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    width: 95%;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: #000000;
+  }
+
+  #bottomCartBox2 {
+    margin: auto;
+    display: flex;
+    width: 94%;
+    /*  border: 2px solid red; */
+    justify-content: space-between;
+  }
+
+  #bottomCartBox2 button {
+    height: 40px;
+    width: 250px;
+    border: none;
+    font-size: small;
+    font-family: Century Gothic;
+    font-style: normal;
+    color: #000000;
+    cursor: pointer;
+  }
+
+  #bottomCartBox2 button:nth-last-child(1) {
+    height: 40px;
+    width: 250px;
+    border: none;
+    background-color: black;
+    color: azure;
+    cursor: pointer;
+  }

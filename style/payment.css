@@ -1,0 +1,22 @@
+.opcacity-down,
+.delivery {
+    opacity: 0.7;
+}
+
+.shopping,
+.delivery {
+    background-color: rgb(85, 83, 83);
+}
+
+.opcacity-down-delivery,
+.gocartpage {
+    color: rgb(79, 78, 78);
+    cursor: pointer;
+}
+
+.confirm {
+    background-color: rgb(202, 201, 201);
+}
+#manufooter{
+    margin-bottom: 30px;
+}
